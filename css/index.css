@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(158, 155, 155);
+}
+
+nav>ul>li#logo {
+    background-color: rgb(158, 155, 155);
+}
+
+li {
+    list-style: none;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    flex-basis: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    padding: 6%;
+}
